@@ -1,10 +1,10 @@
-# ED-HLOA
+# [ED-HLOA](https://github.com/aliwa8168/ED-HLOA)
 
 
 
 In this study, we propose an **E**lite **D**ifferential mutation-based **H**orned **L**izard **O**ptimization **A**lgorithm (ED-HLOA) to optimize the learning rate and compression factor of the DenseNet-201 model, and we validated it on a self-constructed traditional Chinese medicine image dataset.
 
-## Data Summary
+## [Data Summary](https://github.com/aliwa8168/ED-HLOA/tree/main/Chinese%20herbal%20medicine%20Datasets)
 
 
 
@@ -18,11 +18,11 @@ In this study, we propose an **E**lite **D**ifferential mutation-based **H**orne
 
 There are 5 classes in this dataset, namely mint, fritillaria cirrhosa, honeysuckle, ophiopogonis japonicum, and ginseng. Each category contains 2020 images with a total of 10100 images of size 224x224.
 
-## Sample dataset
+## [Sample dataset](https://github.com/aliwa8168/ED-HLOA/tree/main/Sample%20dataset)
 
 It contains examples of the dataset
 
-
+![](https://github.com/aliwa8168/ED-HLOA/blob/main/Sample%20dataset/chuanbeimu.jpg)
 
 ## Code Resources
 
@@ -30,25 +30,25 @@ It contains examples of the dataset
 
 Several key resources are provided for implementing and testing ED-HLOA:
 
-### train.py
+### [train.py](https://github.com/aliwa8168/ED-HLOA/blob/main/train.py)
 
 
 
 Model training files
 
-### Read_picture.py
+### [Read_picture.py](https://github.com/aliwa8168/ED-HLOA/blob/main/Read_picture.py)
 
 
 
 A file that reads images from the dataset and converts them to numpy arrays
 
-### ED-HLOA.py
+### [ED-HLOA.py](https://github.com/aliwa8168/ED-HLOA/blob/main/ED-HLOA.py)
 
 
 
 Code file for the ED-HLOA algorithm
 
-### model.py
+### [model.py](https://github.com/aliwa8168/ED-HLOA/blob/main/model.py)
 
 
 
